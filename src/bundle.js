@@ -62,7 +62,7 @@ const PROFILE = {
   email: "sai.krishna@uga.edu",
   emailDisplay: "sai[dot]krishna@uga[dot]edu",
   scholar: "https://scholar.google.com/citations?user=lrK_Y8AAAAAJ&hl=en&oi=ao",
-  github: "https://github.com/sai-krishna-ghanta",
+  github: "https://github.com/hii-saikrishna",
   linkedin: "https://www.linkedin.com/in/sai-krishna-ghanta-320ab0211/",
   cv: "attached_assets/Resume.pdf"
 };
@@ -399,7 +399,7 @@ const PUBLICATIONS = [{
   overview: "Integrates 3D object detection with dynamic feature filtering to improve semantic SLAM robustness in dynamic indoor environments.",
   links: {
     preprint: "https://arxiv.org/abs/2310.06385",
-    github: "https://github.com/sai-krishna-ghanta/3DS-SLAM",
+    github: "https://github.com/hii-saikrishna/3DS-SLAM",
     blog: "#/blog/vision-3d"
   }
 }, {
@@ -504,7 +504,7 @@ const PUBLICATIONS = [{
   overview: "Presents an IoT-enabled unmanned ground vehicle that detects plant disease with computer vision and supports targeted pesticide atomization.",
   links: {
     paper: "https://doi.org/10.1109/I2CT54291.2022.9824236",
-    github: "https://github.com/sai-krishna-ghanta/Leaf_disease_Detection"
+    github: "https://github.com/hii-saikrishna/Leaf_disease_Detection"
   }
 }, {
   year: 2023,

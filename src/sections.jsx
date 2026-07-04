@@ -434,7 +434,7 @@ function ContactPage() {
                 <span className="arrow">↗</span>
               </a>
               <a className="contact-link" href={PROFILE.github} target="_blank" rel="noopener">
-                <span><span className="label">Code</span>github.com/sai-krishna-ghanta</span>
+                <span><span className="label">Code</span>github.com/hii-saikrishna</span>
                 <span className="arrow">↗</span>
               </a>
               <a className="contact-link" href={PROFILE.linkedin} target="_blank" rel="noopener">
