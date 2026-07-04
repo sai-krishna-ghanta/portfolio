@@ -84,6 +84,12 @@ const HOME_GALLERY = [{
 // A .mp4 src is detected automatically and shown as a playable clip.
 // Order: newest first — the strip scrolls from recent to older.
 const TRIP_GALLERY = [{
+  src: "attached_assets/Gallery/kth-summer-school-2026.mp4",
+  place: "Stockholm, Sweden",
+  title: "KTH RPL Summer School",
+  when: "Jun 2026",
+  desc: "A great event! Had amazing keynote talks, a fantastic time playing scavenger hunt, football, and table tennis, and met many wonderful people. Truly the best professional experience ever."
+}, {
   src: "attached_assets/Gallery/herolab-thanksgiving-2025.jpeg",
   place: "Thai Spoon, UGA",
   title: "HeRoLab Thanksgiving Lunch",
