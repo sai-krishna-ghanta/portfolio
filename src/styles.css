@@ -2863,7 +2863,7 @@ h1.hero-name .italic { font-style: italic; color: var(--accent-ink); }
 }
 .trip-dot { color: rgba(255, 255, 255, 0.5); font-size: 9px; }
 .tf-title { font-family: var(--serif); font-size: clamp(20px, 3vw, 30px); line-height: 1.1; }
-.tf-desc { font-size: 14px; line-height: 1.5; color: rgba(255, 255, 255, 0.9); max-width: 64ch; }
+.tf-desc { font-size: 14px; line-height: 1.5; color: rgba(255, 255, 255, 0.9); max-width: 75%; }
 
 /* ----- Thumbnail rail ----- */
 .trips-rail {
@@ -2987,7 +2987,7 @@ h1.hero-name .italic { font-style: italic; color: var(--accent-ink); }
   color: var(--ink-4);
 }
 .tl-title { font-family: var(--serif); font-size: 21px; line-height: 1.15; margin-top: 8px; }
-.tl-desc { color: var(--ink-3); font-size: 14px; line-height: 1.5; margin-top: 6px; }
+.tl-desc { color: var(--ink-3); font-size: 14px; line-height: 1.5; margin-top: 6px; max-width: 75%; }
 .tl-close {
   position: absolute;
   top: 16px; right: 18px;
