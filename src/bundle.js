@@ -88,7 +88,7 @@ const TRIP_GALLERY = [{
   place: "Stockholm, Sweden",
   title: "KTH RPL Summer School",
   when: "Jun 2026",
-  desc: "A great event! Had amazing keynote talks, a fantastic time playing scavenger hunt, football, and table tennis, and met many wonderful people. Truly the best professional experience ever."
+  desc: "A great event! Attended inspiring keynote talks, had a fantastic time playing scavenger hunt, football, and table tennis, and met many wonderful people. Truly the best professional experience ever."
 }, {
   src: "attached_assets/Gallery/herolab-thanksgiving-2025.jpeg",
   place: "Thai Spoon, UGA",
