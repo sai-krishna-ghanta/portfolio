@@ -594,6 +594,20 @@ const BLOG_POSTS = [];
 const UPDATES = [
 // 2026
 {
+  date: "Aug 2026",
+  year: 2026,
+  tag: "Grant",
+  home: true,
+  title: "NHERI SPARC & NSF Grant",
+  text: /*#__PURE__*/React.createElement(React.Fragment, null, "Received an NSF travel grant and attended the ", /*#__PURE__*/React.createElement("a", {
+    href: "https://www.designsafe-ci.org/learning-center/sparc/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      textDecoration: "underline"
+    }
+  }, "NHERI SPARC Program"), " at the Texas Advanced Computing Center (TACC), UT Austin.")
+}, {
   date: "Jun 2026",
   year: 2026,
   tag: "Grant",
@@ -611,8 +625,6 @@ const UPDATES = [
   date: "May 2026",
   year: 2026,
   tag: "Candidacy",
-  home: true,
-  title: "PhD Candidacy",
   text: "Passed my PhD candidacy exam, before a committee of Dr. Ramviyas Parasuraman, Dr. Jin Sun, Dr. Fei Duo, and Dr. Sabur Baidya."
 }, {
   date: "Apr 2026",
