@@ -80,6 +80,8 @@ const HOME_GALLERY = [
 // A .mp4 src is detected automatically and shown as a playable clip.
 // Order: newest first — the strip scrolls from recent to older.
 const TRIP_GALLERY = [
+  { src: "attached_assets/Gallery/nsf-sparc-ut-austin-2026.jpeg", place: "UT Austin, TX",
+    title: "NSF SPARC at UT Austin", when: "Aug 2026", desc: "Visited the Texas Advanced Computing Center (TACC) at UT Austin during NSF SPARC, standing alongside one of the largest academic High-Performance Computing (HPC) clusters in the world." },
   { src: "attached_assets/Gallery/kth-summer-school-2026.mp4", place: "Stockholm, Sweden",
     title: "KTH RPL Summer School", when: "Jun 2026", desc: "A great event! Attended inspiring keynote talks, had a fantastic time playing scavenger hunt, football, and table tennis, and met many wonderful people. Truly the best professional experience ever." },
   { src: "attached_assets/Gallery/herolab-thanksgiving-2025.jpeg", place: "Thai Spoon, UGA",
