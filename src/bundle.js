@@ -58,7 +58,7 @@ const PROFILE = {
   role: "Ph.D. Candidate, Artificial Intelligence",
   org: "University of Georgia · HeRoLab",
   advisor: "Dr. Ramviyas Parasuraman",
-  location: "Athens, GA",
+  location: "Athens, GA & Austin, TX",
   email: "sai.krishna@uga.edu",
   emailDisplay: "sai[dot]krishna@uga[dot]edu",
   scholar: "https://scholar.google.com/citations?user=lrK_Y8AAAAAJ&hl=en&oi=ao",
@@ -3142,6 +3142,12 @@ const VISITED_PLACES = [{
   w: 1.0,
   current: true
 }, {
+  name: "Austin, TX",
+  lat: 30.27,
+  lon: -97.74,
+  w: 0.85,
+  current: true
+}, {
   name: "Greenville, SC",
   lat: 34.85,
   lon: -82.39,
@@ -3228,7 +3234,7 @@ const VISITED_PLACES = [{
   lon: 18.07,
   w: 0.5
 }];
-const TRAVEL_ARCS = [["Guntur", "Delhi"], ["Delhi", "Manali"], ["Guntur", "Naya Raipur"], ["Naya Raipur", "Thailand"], ["Guntur", "Louisville"], ["Louisville", "Athens, GA"], ["Athens, GA", "Hangzhou"], ["Athens, GA", "New York"], ["Athens, GA", "Colorado"], ["Athens, GA", "Toronto"], ["Toronto", "Detroit"], ["Athens, GA", "Greenville, SC"], ["Athens, GA", "Sweden"]];
+const TRAVEL_ARCS = [["Guntur", "Delhi"], ["Delhi", "Manali"], ["Guntur", "Naya Raipur"], ["Naya Raipur", "Thailand"], ["Guntur", "Louisville"], ["Louisville", "Athens, GA"], ["Athens, GA", "Austin, TX"], ["Athens, GA", "Hangzhou"], ["Athens, GA", "New York"], ["Athens, GA", "Colorado"], ["Athens, GA", "Toronto"], ["Toronto", "Detroit"], ["Athens, GA", "Greenville, SC"], ["Athens, GA", "Sweden"]];
 function latLonToV3(lat, lon, r) {
   const phi = (90 - lat) * Math.PI / 180;
   const theta = (lon + 180) * Math.PI / 180;
@@ -4356,7 +4362,7 @@ function HomePage({
     className: "hero-eyebrow"
   }, /*#__PURE__*/React.createElement("span", {
     className: "pulse"
-  }), /*#__PURE__*/React.createElement("span", null, "Athens \xB7 Georgia")), /*#__PURE__*/React.createElement("h1", {
+  }), /*#__PURE__*/React.createElement("span", null, "Athens, GA \xB7 Austin, TX")), /*#__PURE__*/React.createElement("h1", {
     className: "hero-name"
   }, "Sai Krishna ", /*#__PURE__*/React.createElement("span", {
     className: "italic"
@@ -6362,7 +6368,7 @@ function Footer() {
       flexWrap: "wrap",
       gap: 16
     }
-  }, /*#__PURE__*/React.createElement("div", null, "\xA9 2026 Sai Krishna Ghanta \xB7 Athens, GA"), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/React.createElement("div", null, "\xA9 2026 Sai Krishna Ghanta \xB7 Athens, GA & Austin, TX"), /*#__PURE__*/React.createElement("div", {
     className: "mono",
     style: {
       fontSize: 11,
@@ -6372,7 +6378,7 @@ function Footer() {
     style: {
       color: "var(--ink-2)"
     }
-  }, "June 2026"))));
+  }, "September 2026"))));
 }
 
 // ===== App =====

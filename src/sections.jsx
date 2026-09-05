@@ -58,7 +58,7 @@ function HomePage({ go }) {
               <Reveal>
                 <div className="hero-eyebrow">
                   <span className="pulse"></span>
-                  <span>Athens · Georgia</span>
+                  <span>Athens, GA · Austin, TX</span>
                 </div>
                 <h1 className="hero-name">
                   Sai Krishna<br/>
@@ -451,7 +451,7 @@ function ContactPage() {
               </div>
               <div className="globe-tag">
                 <span className="dot"></span>
-                Now — Athens, GA
+                Now — Athens, GA & Austin, TX
               </div>
               <div className="globe-meta">
                 <span>{VISITED_PLACES.length} places · 5 countries</span>

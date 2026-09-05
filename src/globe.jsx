@@ -2,6 +2,7 @@
 
 const VISITED_PLACES = [
   { name: "Athens, GA", lat: 33.95, lon: -83.38, w: 1.0, current: true },
+  { name: "Austin, TX", lat: 30.27, lon: -97.74, w: 0.85, current: true },
   { name: "Greenville, SC", lat: 34.85, lon: -82.39, w: 0.4 },
   { name: "Guntur", lat: 16.31, lon: 80.44, w: 0.95, home: true },
   { name: "Vijayawada", lat: 16.51, lon: 80.65, w: 0.7 },
@@ -24,6 +25,7 @@ const VISITED_PLACES = [
 const TRAVEL_ARCS = [
   ["Guntur", "Delhi"], ["Delhi", "Manali"], ["Guntur", "Naya Raipur"],
   ["Naya Raipur", "Thailand"], ["Guntur", "Louisville"], ["Louisville", "Athens, GA"],
+  ["Athens, GA", "Austin, TX"],
   ["Athens, GA", "Hangzhou"], ["Athens, GA", "New York"], ["Athens, GA", "Colorado"],
   ["Athens, GA", "Toronto"], ["Toronto", "Detroit"], ["Athens, GA", "Greenville, SC"],
   ["Athens, GA", "Sweden"],

@@ -508,7 +508,7 @@ function HomePage({ go }) {
               <Reveal>
                 <div className="hero-eyebrow">
                   <span className="pulse"></span>
-                  <span>Athens · Georgia</span>
+                  <span>Athens, GA · Austin, TX</span>
                 </div>
                 <h1 className="hero-name">
                   Sai Krishna <span className="italic">Ghanta</span>
@@ -1889,9 +1889,9 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="container" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
-        <div>© 2026 Sai Krishna Ghanta · Athens, GA</div>
+        <div>© 2026 Sai Krishna Ghanta · Athens, GA & Austin, TX</div>
         <div className="mono" style={{ fontSize: 11, letterSpacing: "0.06em" }}>
-          Built with care · Last updated <span style={{ color: "var(--ink-2)" }}>June 2026</span>
+          Built with care · Last updated <span style={{ color: "var(--ink-2)" }}>September 2026</span>
         </div>
       </div>
     </footer>

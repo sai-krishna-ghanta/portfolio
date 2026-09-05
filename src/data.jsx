@@ -55,7 +55,7 @@ const PROFILE = {
   role: "Ph.D. Candidate, Artificial Intelligence",
   org: "University of Georgia · HeRoLab",
   advisor: "Dr. Ramviyas Parasuraman",
-  location: "Athens, GA",
+  location: "Athens, GA & Austin, TX",
   email: "sai.krishna@uga.edu",
   emailDisplay: "sai[dot]krishna@uga[dot]edu",
   scholar: "https://scholar.google.com/citations?user=lrK_Y8AAAAAJ&hl=en&oi=ao",
